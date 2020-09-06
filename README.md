@@ -2,7 +2,7 @@
 
 O Kudoapp vai ser o aplicativo que vamos desenvolver durante a disciplina. 
 
-# mobileflutter
+# Curso de Mobile com Flutter
 Disciplina de programação Mobile com Flutter. 
 
 
