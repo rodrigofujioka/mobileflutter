@@ -1,7 +1,24 @@
 import 'package:flutter/material.dart';
-import 'package:kudoapp/br/fujideia/flutter/exercicios/ExibeImagemWidget.dart';
+import 'package:kudoapp/br/com/fujideia/flutter/material/AulaMaterialApp.dart';
+import 'package:kudoapp/br/com/fujideia/flutter/material/AulaMaterialApp02.dart';
+import 'file:///D:/ambiente/sistemas/academico/mobileflutter/lib/br/com/fujideia/flutter/exercicios/MaterialShowImage.dart';
+import 'package:kudoapp/br/com/fujideia/flutter/material/AulaStatefulWidget.dart';
 
-void main() => runApp(MaterialShowImageApp());
+
+//AulaMaterial 01
+/*void main() =>   runApp(MaterialApp(
+  home: AulaMaterialApp(),
+)); // MaterialApp*/
+
+//AulaMaterial 02
+void main() =>   runApp(MaterialApp(
+  home: AulaMaterialApp02(),
+)); // Mat
+
+
+
+
+//void main() =>   runApp(MaterialShowImageApp()); // MaterialApp
 
 class HelloWorldApp extends StatelessWidget{
   @override
