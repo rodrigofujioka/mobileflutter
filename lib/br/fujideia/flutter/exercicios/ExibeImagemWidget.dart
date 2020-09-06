@@ -32,7 +32,8 @@ class _MyShowImagePageState extends State<MyMShowImagePage> {
   @override
   Widget build(BuildContext context) {
 
-    var imagemTdc = Image.asset('images/aula_fujioka.jpg');
+    var imagemTdc = Image.asset('images/aula_fujioka_mini.jpg');
+    // experimente utilizar o image.network
 
     return Scaffold(
       appBar: AppBar(
@@ -43,7 +44,7 @@ class _MyShowImagePageState extends State<MyMShowImagePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             Text(
-              _headText,
+              _headText, style: TextStyle(fontWeight: FontWeight.bold, fontSize: 30)
             ),
             if(_exibeImagem)
               imagemTdc
@@ -61,7 +62,7 @@ class _MyShowImagePageState extends State<MyMShowImagePage> {
         children: <Widget>[
           FloatingActionButton(
             onPressed: _showImage,
-            tooltip: 'Exibir o Fuji',
+            tooltip: 'Exibir o Fuji com a Akemi',
             child: Icon(Icons.favorite),
           ),
           SizedBox(
@@ -79,7 +80,7 @@ class _MyShowImagePageState extends State<MyMShowImagePage> {
 
   void _showImage() {
     setState(() {
-      _headText = 'Esse é o Fuji';
+      _headText = 'Esse é o Fuji com a Nicole';
       _exibeImagem=true;
     });
   }
