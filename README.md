@@ -25,8 +25,9 @@ Olá, seja bem vindo a mais um curso com o professor Rodrigo Fujioka.
 - [Android Studio](https://developer.android.com/studio)  <- Independente da ferramenta que escolher, esse aqui vai ter que baixar. 
 
 - Plugins para IDEs Intellij, Vs Code e Emacs [Plugins](https://flutter.dev/docs/get-started/editor?)
+- Após instalar o Plugin para sua IDE, faça o teste para ver se deu tudo certo [Teste Drive]( https://flutter.dev/docs/get-started/test-drive?tab=androidstudio) 
 
-* Softwares para Download. 
+### Softwares para Download. 
 
 - [Flutter](https://flutter.dev/docs/get-started/install)
 - [DART](https://dart.dev/get-dart)  <- Aqui também da para instalar o Dart no Windows, mas vai precisar usar o Choco [Choco](https://chocolatey.org/)
