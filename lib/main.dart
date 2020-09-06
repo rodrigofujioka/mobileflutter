@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:kudoapp/br/fujideia/flutter/exercicios/ExibeImagemWidget.dart';
 
-void main() => runApp(MaterialMobileApp());
+void main() => runApp(MaterialShowImageApp());
 
 class HelloWorldApp extends StatelessWidget{
   @override
@@ -40,10 +41,10 @@ class MyMaterialPage extends StatefulWidget {
   final String title;
 
   @override
-  _MyKudoPageState createState() => _MyKudoPageState();
+  _MyMaterialPageState createState() => _MyMaterialPageState();
 }
 
-class _MyKudoPageState extends State<MyMaterialPage> {
+class _MyMaterialPageState extends State<MyMaterialPage> {
 
   int _counter = 0;
 
