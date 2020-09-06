@@ -24,6 +24,8 @@ Olá, seja bem vindo a mais um curso com o professor Rodrigo Fujioka.
 - [VS Code](https://code.visualstudio.com/)
 - [Android Studio](https://developer.android.com/studio)  <- Independente da ferramenta que escolher, esse aqui vai ter que baixar. 
 
+- Plugins para IDEs Intellij, Vs Code e Emacs [Plugins](https://flutter.dev/docs/get-started/editor?)
+
 * Softwares para Download. 
 
 - [Flutter](https://flutter.dev/docs/get-started/install)
