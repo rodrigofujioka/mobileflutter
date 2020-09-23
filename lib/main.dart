@@ -1,19 +1,15 @@
 import 'package:flutter/material.dart';
-import 'package:kudoapp/br/com/fujideia/flutter/material/AulaMaterialApp.dart';
-import 'package:kudoapp/br/com/fujideia/flutter/material/AulaMaterialApp02.dart';
-import 'file:///D:/ambiente/sistemas/academico/mobileflutter/lib/br/com/fujideia/flutter/exercicios/MaterialShowImage.dart';
-import 'package:kudoapp/br/com/fujideia/flutter/material/AulaStatefulWidget.dart';
-
+import 'package:kudoapp/br/com/fujideia/flutter/material/AulaMaterialApp03.dart';
 
 //AulaMaterial 01
-/*void main() =>   runApp(MaterialApp(
-  home: AulaMaterialApp(),
-)); // MaterialApp*/
+void main() =>   runApp(MaterialApp(
+  home: AulaMaterialApp03(),
+)); // MaterialApp
+
+
 
 //AulaMaterial 02
-void main() =>   runApp(MaterialApp(
-  home: AulaMaterialApp02(),
-)); // Mat
+//void main() =>   runApp(AulaMaterialApp02()); // Mat
 
 
 
@@ -46,7 +42,7 @@ class MaterialMobileApp extends StatelessWidget{
     return MaterialApp(
       title: 'Fuji Flutter Mobile Class',
       theme: ThemeData(
-        primarySwatch: Colors.red,  // Experimente mudar o Color
+        primarySwatch: Colors.blue,  // Experimente mudar o Color
       ),
       home: MyMaterialPage(title: 'Aula de Flutter '),
     );
@@ -68,6 +64,7 @@ class _MyMaterialPageState extends State<MyMaterialPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+
       appBar: AppBar(
         title: Text(widget.title),
       ),
@@ -118,6 +115,8 @@ class _MyMaterialPageState extends State<MyMaterialPage> {
       _counter--;
     });
   }
+
+
 }
 
 
