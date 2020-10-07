@@ -1,10 +1,25 @@
 import 'package:flutter/material.dart';
+import 'package:kudoapp/br/com/fujideia/flutter/material/AulaMaterialApp.dart';
+import 'package:kudoapp/br/com/fujideia/flutter/material/AulaMaterialApp02.dart';
 import 'package:kudoapp/br/com/fujideia/flutter/material/AulaMaterialApp03.dart';
 
-//AulaMaterial 01
-void main() =>   runApp(MaterialApp(
-  home: AulaMaterialApp03(),
-)); // MaterialApp
+
+
+/*
+void main() =>   runApp(
+    MaterialApp(
+        home: AulaMaterialApp()
+    )); // MaterialApp
+
+*/
+
+void main() =>   runApp(
+    MaterialApp(
+        home: AulaMaterialApp02()
+    )); // MaterialApp
+
+
+
 
 
 
@@ -118,6 +133,3 @@ class _MyMaterialPageState extends State<MyMaterialPage> {
 
 
 }
-
-
-
